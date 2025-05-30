@@ -1,0 +1,2 @@
+# AI-powered-glaucoma-detection-system-using-deep-learning
+Develop a deep learning-based model (MobileNetV2) for detecting pediatric glaucoma from fundus &amp; OCT images.Incorporate transfer learning with pre-trained models (VGG16, ResNet50) to manage limited data. Use image augmentation to enhance generalization and model robustness.Deploy the trained model into a web-based platform for real-time diagnosis.
