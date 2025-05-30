@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="copyright" content="MACode ID, https://macodeid.com/">
+  <title>Pediatric Glaucoma Detection</title>
+
+  <link href="{{ url_for('static', filename='maicons.css')}}" rel="stylesheet" />
+  <link href="{{ url_for('static', filename='bootstrap.css')}}" rel="stylesheet" />
+  <link href="{{ url_for('static', filename='owl.carousel.css')}}" rel="stylesheet" />
+  <link href="{{ url_for('static', filename='animate.css')}}" rel="stylesheet" />
+  <link href="{{ url_for('static', filename='theme.css')}}" rel="stylesheet" />
+</head>
+<body>
+
+  <div class="back-to-top"></div>
+
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light shadow-sm">
+      <div class="container">
+        <a class="navbar-brand" href="#"><span class="text-primary">Pediatric Glaucoma </span>-Detection</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupport" aria-controls="navbarSupport" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupport">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="{{ url_for('home') }}">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{{ url_for('about') }}">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{{ url_for('home1') }}">Prediction</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <div class="page-hero bg-image overlay-dark" style="background-image: url(../static/img/g1.webp);">
+    <div class="hero-section">
+      <div class="container text-center wow zoomIn">
+        <span class="subhead">AI-Powered Diagnosis</span>
+        <h1 class="display-4">Pediatric Glaucoma Detection</h1>
+        <a href="{{ url_for('home1') }}" class="btn btn-primary">Try Prediction</a>
+      </div>
+    </div>
+  </div>
+  
+  <div class="bg-light">
+    <div class="page-section pb-0">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6 py-3 wow fadeInUp">
+            <h1>Welcome to <br> Pediatric Glaucoma Detection</h1>
+            <p class="text-grey mb-4">
+              Our AI-driven platform is designed to assist early diagnosis of Pediatric Glaucoma by analyzing ocular images using Convolutional Neural Networks (CNN). 
+              Pediatric Glaucoma, a rare but serious condition in children, often leads to permanent vision loss if not detected early. 
+              With the help of a trained deep learning model, our system classifies eye images into normal or glaucoma-affected cases to support ophthalmologists in real-time screening.
+              This project is implemented using Python, TensorFlow (CNN architecture), Flask for web interface, and MySQL for secure patient data management.
+            </p>
+            <a href="{{ url_for('about') }}" class="btn btn-primary">Learn More</a>
+          </div>
+          <div class="col-lg-6 wow fadeInRight" data-wow-delay="400ms">
+            <div class="img-place custom-img-1">
+              <img src="../static/img/g2.jpg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="page-section bg-light">
+    <div class="container">
+      <h1 class="text-center wow fadeInUp">Latest Insights</h1>
+      <div class="row mt-5">
+        <div class="col-lg-4 py-2 wow zoomIn">
+          <div class="card-blog">
+            <div class="header">
+              <div class="post-category"><a href="#">Detection</a></div>
+              <a href="blog-details.html" class="post-thumb">
+                <img src="../static/img/g3.jpg" alt="">
+              </a>
+            </div>
+            <div class="body">
+              <h5 class="post-title"><a href="#">How CNN Helps Identify Pediatric Glaucoma</a></h5>
+              <div class="site-info">
+                <div class="avatar mr-2">
+                  <div class="avatar-img"><img src="../static/img/g4.webp" alt=""></div>
+                  <span>Dr. Kavya</span>
+                </div>
+                <span class="mai-time"></span> 1 week ago
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-lg-4 py-2 wow zoomIn">
+          <div class="card-blog">
+            <div class="header">
+              <div class="post-category"><a href="#">AI in Healthcare</a></div>
+              <a href="blog-details.html" class="post-thumb">
+                <img src="../static/img/g5.jpg" alt="">
+              </a>
+            </div>
+            <div class="body">
+              <h5 class="post-title"><a href="#">Early Detection of Eye Disorders in Children</a></h5>
+              <div class="site-info">
+                <div class="avatar mr-2">
+                  <div class="avatar-img"><img src="../static/img/g6.webp" alt=""></div>
+                  <span>Roger Adams</span>
+                </div>
+                <span class="mai-time"></span> 4 weeks ago
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-lg-4 py-2 wow zoomIn">
+          <div class="card-blog">
+            <div class="header">
+              <div class="post-category"><a href="#">Smart Diagnosis</a></div>
+              <a href="blog-details.html" class="post-thumb">
+                <img src="../static/img/g7.jpg" alt="">
+              </a>
+            </div>
+            <div class="body">
+              <h5 class="post-title"><a href="#">CNN-Powered Screening for Childhood Glaucoma</a></h5>
+              <div class="site-info">
+                <div class="avatar mr-2">
+                  <div class="avatar-img"><img src="../static/img/g2.jpg" alt=""></div>
+                  <span>Diego Simmons</span>
+                </div>
+                <span class="mai-time"></span> 2 months ago
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-12 text-center mt-4 wow zoomIn">
+          <a href="blog.html" class="btn btn-primary">Read More</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+  <script src="../assets/js/jquery-3.5.1.min.js"></script>
+  <script src="../assets/js/bootstrap.bundle.min.js"></script>
+  <script src="../assets/vendor/owl-carousel/js/owl.carousel.min.js"></script>
+  <script src="../assets/vendor/wow/wow.min.js"></script>
+  <script src="../assets/js/theme.js"></script>
+
+</body>
+</html>
