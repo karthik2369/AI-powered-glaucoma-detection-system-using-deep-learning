@@ -24,11 +24,11 @@ A deep learning system to detect pediatric glaucoma from retinal and OCT images 
 - HTML, CSS, JavaScript (for frontend)
 
 # Folder Structure
-glaucoma/
-├── app.py
-├── model/
-├── static/
-├── templates/
-├── utils.py
-├── requirements.txt
-└── README.md
+glaucoma
+-app.py
+-model
+-static
+-templates
+-utils.py
+-requirements.txt
+-README.md
