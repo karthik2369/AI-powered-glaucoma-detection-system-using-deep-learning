@@ -25,10 +25,10 @@ A deep learning system to detect pediatric glaucoma from retinal and OCT images 
 
 # Folder Structure
 glaucoma/
-├── app.py                  # Flask app
-├── model/                  # Contains MobileNetV2 model (.h5)
-├── static/                 # Static files (CSS, JS, images)
-├── templates/              # HTML files
-├── utils.py                # Image preprocessing utilities
-├── requirements.txt        # Required libraries
-├── README.md               # This file
+├── app.py
+├── model/
+├── static/
+├── templates/
+├── utils.py
+├── requirements.txt
+└── README.md
